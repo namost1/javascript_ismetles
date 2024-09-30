@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+pre {
+    white-space: pre-wrap; /* Preserves whitespace and line breaks */
+    text-align: left; /* Aligns the text to the left */
+}
